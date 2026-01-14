@@ -63,20 +63,15 @@
         <testSourceDirectory>src/test/java</testSourceDirectory>
 
         <plugins>
-            <!-- Компилятор Java -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
                 <configuration>
-                    <source>22</source>
-                    <target>22</target>
+                    <source>11</source>
+                    <target>11</target>
                 </configuration>
             </plugin>
-
-
-
-
 
         <plugin>
             <groupId>org.jacoco</groupId>
@@ -106,5 +101,4 @@
 
     </build>
 
-    <!-- Для корректной генерации отчётов -->
 </project>
