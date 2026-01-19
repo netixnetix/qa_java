@@ -24,7 +24,6 @@ class CatTest {
 
     @Test
     void getSoundReturnSoundMya() {
-        cat.getSound();
         assertEquals("Мяу", cat.getSound());
     }
 
